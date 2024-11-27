@@ -1,0 +1,14 @@
+# Python files
+*.pyc
+__pycache__/
+
+# Django secrets
+.env
+db.sqlite3
+
+# Docker
+*.log
+*.pid
+
+# Static files
+/staticfiles
