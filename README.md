@@ -1,5 +1,6 @@
-Crearted by: Kaiwalya Kshirsagar
-Date: 26-11-2024
+Created by:    Kaiwalya Kshirsagar
+Date:          26-11-2024
+LinkedIn:      https://www.linkedin.com/in/kaiwalyakshirsagar/
 
 This project is a backend system for managing currency exchange rates. It provides APIs for CRUD operations, currency conversion, and historical rate management, with asynchronous task handling using Celery.
 
@@ -54,14 +55,14 @@ Core Application Files
 
 
 File	Purpose
-models.py	Defines database models (Currency and CurrencyExchangeRate).
-serializers.py	Serializes models into JSON and validates API inputs.
-views.py	Implements API endpoints for currency management, exchange rate retrieval, and conversion.
-urls.py	Maps URLs to views for routing.
-tasks.py	Defines asynchronous tasks for fetching historical rates.
-adapters.py	Handles integration with external APIs (e.g., CurrencyBeacon) for exchange rate data.
-admin.py	Customizes the admin interface for managing currencies and exchange rates.
-celery.py	Configures Celery for task queue handling.
+models.py	      Defines database models (Currency and CurrencyExchangeRate).
+serializers.py	   Serializes models into JSON and validates API inputs.
+views.py	         Implements API endpoints for currency management, exchange rate retrieval, and conversion.
+urls.py	         Maps URLs to views for routing.
+tasks.py	         Defines asynchronous tasks for fetching historical rates.
+adapters.py	      Handles integration with external APIs (e.g., CurrencyBeacon) for exchange rate data.
+admin.py	         Customizes the admin interface for managing currencies and exchange rates.
+celery.py	      Configures Celery for task queue handling.
 
 
 Supporting Files
