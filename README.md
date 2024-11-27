@@ -66,14 +66,17 @@ celery.py	      Configures Celery for task queue handling.
 
 
 Supporting Files
-File	               Purpose
-.gitignore	         Specifies files and directories to ignore in version control.
-Dockerfile	         Defines the environment for running the Django app in Docker.
-docker-compose.yml	Orchestrates multiple services, including the Django app, Redis, and Celery workers.
-manage.py	         Entry point for running Django commands.
-README.md	         Documentation for setup, usage, and project details.
-Environment Variables
+File	                                 Purpose
+.gitignore	                           Specifies files and directories to ignore in version control.
+Dockerfile	                           Defines the environment for running the Django app in Docker.
+docker-compose.yml	                  Orchestrates multiple services, including the Django app, Redis, and Celery workers.
+manage.py	                           Entry point for running Django commands.
+README.md	                           Documentation for setup, usage, and project details.
+Currency.postman_collection.json       Postman collection to test APIs
 
-Variable	Description
+Environment Variables
+Variable	               Description
 CURRENCYBEACON_API_KEY	API key for the CurrencyBeacon provider.
 SECRET_KEY	            Django secret key for encryption.
+
+
